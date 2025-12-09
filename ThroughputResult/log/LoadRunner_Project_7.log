@@ -1,0 +1,13 @@
+Start auto log messages stack - Iteration 24.	[MsgId: MMSG-10545]
+Buy_Item.c(7): Resource "https://petstore.octoperf.com/images/sm_birds.gif" is in the cache already and will not be downloaded again  	[MsgId: MMSG-26655]
+Buy_Item.c(7): web_url("Order.action") was successful, 3985 body bytes, 225 header bytes  	[MsgId: MMSG-26386]
+Buy_Item.c(16): lr_think_time: 5.00 seconds.	[MsgId: MMSG-15948]
+Ending action Buy_Item.	[MsgId: MMSG-15918]
+Starting action Add_to_Cart.	[MsgId: MMSG-15919]
+Add_to_Cart.c(4): web_add_auto_header("Accept-Language") started  	[MsgId: MMSG-26355]
+Add_to_Cart.c(4): web_add_auto_header("Accept-Language") was successful  	[MsgId: MMSG-26392]
+Add_to_Cart.c(7): lr_think_time: 7.00 seconds.	[MsgId: MMSG-15948]
+Add_to_Cart.c(9): web_url("Catalog.action") started  	[MsgId: MMSG-26355]
+Add_to_Cart.c(9): Error -27760: Request "https://petstore.octoperf.com/actions/Catalog.action?viewCategory=&categoryId=FISH" failed  	[MsgId: MERR-27760]
+End auto log messages stack.	[MsgId: MMSG-10544]
+

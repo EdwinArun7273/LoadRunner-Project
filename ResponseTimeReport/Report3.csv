@@ -1,0 +1,8 @@
+﻿"Transaction Name","Number of Transactions"
+"Add_to_Cart_Transaction","10"
+"Buy_Item_Transaction","10"
+"Home_page_Transaction","10"
+"Login_Transaction","10"
+"Logout_Transaction","10"
+"vuser_end_Transaction","10"
+"vuser_init_Transaction","10"

@@ -1,0 +1,33 @@
+[Scenario]
+Product=LoadRunner Controller
+Version=2023.0.0.0
+Path=C:\Users\Administrator\Desktop\LoadRunner Project\ResponseTimeController.lrs
+Subject=ResponseTime
+Result_file=C:\Users\Administrator\Desktop\LoadRunner Project\ResponseTimeResult0\ResponseTimeResult0.lrr
+Description=
+ResultName=ResponseTimeResult0
+Time_Zone=-19800
+Start_time=1765272454
+Daylight_Bias=0
+Stop_time=1765272473
+[Configuration]
+Public_local=1
+Is_mix=1
+Is_runner_file=0
+Runner_file=
+[Running_mode]
+Start_reason=By command
+Stop_reason=By a user
+[Data Collection]
+FullData=1
+[Scenario_summary]
+Scenario Type=Manual Scenario
+Goal Profile Name=Schedule 1
+Mode=Scenario Scheduling
+Scenario Duration=Start 10 Vusers simultaneously; Run until completion
+Load Behavior=Initialize each Vuser just before it runs
+Global Schedule=ST10;R0;
+[Scripts]
+LoadRunner_Project=C:\Users\Administrator\Documents\VuGen\Scripts\LoadRunner-Project\LoadRunner-Project.usr
+[Scripts_types]
+LoadRunner_Project=Multi+QTWeb
